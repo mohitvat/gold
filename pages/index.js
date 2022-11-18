@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+
 import React from "react";
 
 function index() {
@@ -8,7 +10,7 @@ function index() {
         <img className="h-[63.22px] object-cover " alt="" src="logo@2x.png" />
 
         <div className="text-center text-2xs text-white mr-80 ">
-          <div className="font-medium mr-6  inline-block">Home</div>
+          <div className="font-medium mr-6  inline-block">Home</div>{" "}
           <div className="font-medium mr-6 inline-block">About us</div>
           <div className="font-medium mr-6 inline-block">Services</div>
           <div className="font-medium mr-6 inline-block">Branches</div>
